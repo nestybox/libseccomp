@@ -360,6 +360,10 @@ struct seccomp_notif_resp {
 	__s32 error;
 	__u32 flags;
 };
+
+/* flags for seccomp notif response */
+#define SECCOMP_USER_NOTIF_FLAG_CONTINUE 0x1
+
 #endif
 
 /*
