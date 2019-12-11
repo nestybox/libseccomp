@@ -177,7 +177,12 @@ struct seccomp_notif_resp {
 #define SECCOMP_IOCTL_NOTIF_SEND        SECCOMP_IOWR(1, \
 						     struct seccomp_notif_resp)
 #define SECCOMP_IOCTL_NOTIF_ID_VALID    SECCOMP_IOR(2, __u64)
+
+/* flags for seccomp notification response */
+#define SECCOMP_USER_NOTIF_FLAG_CONTINUE 0x1
+
 #endif /* SECCOMP_RET_USER_NOTIF */
+
 
 int sys_chk_seccomp_syscall(void);
 void sys_set_seccomp_syscall(bool enable);
