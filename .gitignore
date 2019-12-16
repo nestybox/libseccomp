@@ -17,6 +17,9 @@
 Makefile.in
 cscope.*
 tags
+GPATH
+GRTAGS
+GTAGS
 /autom4te.cache
 /aclocal.m4
 /build-aux
