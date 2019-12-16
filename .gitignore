@@ -14,8 +14,6 @@
 .libs
 .stgit-*
 .stgitmail.txt
-configure
-Makefile
 Makefile.in
 cscope.*
 tags
