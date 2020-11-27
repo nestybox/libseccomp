@@ -176,6 +176,16 @@ struct seccomp_notif_resp {
 #define SECCOMP_IOCTL_NOTIF_RECV        SECCOMP_IOWR(0, struct seccomp_notif)
 #define SECCOMP_IOCTL_NOTIF_SEND        SECCOMP_IOWR(1, \
 						     struct seccomp_notif_resp)
+
+/*
+ * Note: On 06/2020, the definition for SECCOMP_IOCTL_NOTIF_ID_VALID
+ * changed in the kernel from SECCOMP_IOR to SECCOMP_IOW, but the
+ * SECCOMP_IOR definition was kept for backward compatibility. Here,
+ * we purposefully use the old definition to ensure libseccomp works
+ * on kernels with the old or new definition. If we were to change
+ * this to the new definition (SECCOMP_IOW), libseccomp would not work
+ * on kernels with the old definition.
+*/
 #define SECCOMP_IOCTL_NOTIF_ID_VALID    SECCOMP_IOR(2, __u64)
 
 /* flags for seccomp notification response */
