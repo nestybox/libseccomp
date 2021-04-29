@@ -96,6 +96,7 @@ const struct arch_syscall_def mips64n32_syscall_table[] = { \
 	{ "exit", (__SCMP_NR_BASE + 58) },
 	{ "exit_group", (__SCMP_NR_BASE + 205) },
 	{ "faccessat", (__SCMP_NR_BASE + 263) },
+	{ "faccessat2", (__SCMP_NR_BASE + 439) },
 	{ "fadvise64", (__SCMP_NR_BASE + 216) },
 	{ "fadvise64_64", __PNR_fadvise64_64 },
 	{ "fallocate", (__SCMP_NR_BASE + 283) },

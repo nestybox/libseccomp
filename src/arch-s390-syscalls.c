@@ -76,6 +76,7 @@ const struct arch_syscall_def s390_syscall_table[] = { \
 	{ "exit", 1 },
 	{ "exit_group", 248 },
 	{ "faccessat", 300 },
+	{ "faccessat2", 439 },
 	{ "fadvise64", 253 },
 	{ "fadvise64_64", 264 },
 	{ "fallocate", 314 },

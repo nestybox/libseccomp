@@ -93,6 +93,7 @@ const struct arch_syscall_def ppc_syscall_table[] = { \
 	{ "exit", 1 },
 	{ "exit_group", 234 },
 	{ "faccessat", 298 },
+	{ "faccessat2", 439 },
 	{ "fadvise64", 233 },
 	{ "fadvise64_64", 254 },
 	{ "fallocate", 309 },
