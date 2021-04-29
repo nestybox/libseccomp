@@ -104,6 +104,7 @@ const struct arch_syscall_def arm_syscall_table[] = { \
 	{ "exit", (__SCMP_NR_BASE +  1) },
 	{ "exit_group", (__SCMP_NR_BASE + 248) },
 	{ "faccessat", (__SCMP_NR_BASE + 334) },
+	{ "faccessat2", (__SCMP_NR_BASE + 439) },
 	{ "fadvise64", __PNR_fadvise64 },
 	{ "fadvise64_64", __PNR_fadvise64_64 },
 	{ "fallocate", (__SCMP_NR_BASE + 352) },

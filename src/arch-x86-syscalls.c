@@ -92,6 +92,7 @@ const struct arch_syscall_def x86_syscall_table[] = { \
 	{ "exit", 1 },
 	{ "exit_group", 252 },
 	{ "faccessat", 307 },
+	{ "faccessat2", 439 },
 	{ "fadvise64", 250 },
 	{ "fadvise64_64", 272 },
 	{ "fallocate", 324 },

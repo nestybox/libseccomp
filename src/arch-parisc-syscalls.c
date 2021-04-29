@@ -76,6 +76,7 @@ const struct arch_syscall_def parisc_syscall_table[] = { \
 	{ "exit",	1 },
 	{ "exit_group",	222 },
 	{ "faccessat",	287 },
+	{ "faccessat2", 439 },
 	{ "fadvise64",	__PNR_fadvise64 },
 	{ "fadvise64_64",	236 },
 	{ "fallocate",	305 },
