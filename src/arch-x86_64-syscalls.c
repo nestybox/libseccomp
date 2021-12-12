@@ -70,6 +70,7 @@ const struct arch_syscall_def x86_64_syscall_table[] = { \
 	{ "clone", 56 },
 	{ "clone3", 435 },
 	{ "close", 3 },
+	{ "close_range", 436 },
 	{ "connect", 42 },
 	{ "copy_file_range", 326 },
 	{ "creat", 85 },

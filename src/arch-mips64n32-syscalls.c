@@ -74,6 +74,7 @@ const struct arch_syscall_def mips64n32_syscall_table[] = { \
 	{ "clone", (__SCMP_NR_BASE + 55) },
 	{ "clone3", (__SCMP_NR_BASE + 435) },
 	{ "close", (__SCMP_NR_BASE + 3) },
+	{ "close_range", (__SCMP_NR_BASE + 436) },
 	{ "connect", (__SCMP_NR_BASE + 41) },
 	{ "copy_file_range", (__SCMP_NR_BASE + 324) },
 	{ "creat", (__SCMP_NR_BASE + 83) },

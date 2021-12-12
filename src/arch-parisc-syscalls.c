@@ -54,6 +54,7 @@ const struct arch_syscall_def parisc_syscall_table[] = { \
 	{ "clone",	120 },
 	{ "clone3",	__PNR_clone3 },
 	{ "close",	6 },
+	{ "close_range",	436 },
 	{ "connect",	31 },
 	{ "copy_file_range", 346 },
 	{ "creat",	8 },
