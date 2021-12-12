@@ -70,6 +70,7 @@ const struct arch_syscall_def aarch64_syscall_table[] = { \
 	{ "clone", 220 },
 	{ "clone3", __PNR_clone3 },
 	{ "close", 57 },
+	{ "close_range", 436 },
 	{ "connect", 203 },
 	{ "copy_file_range", 285 },
 	{ "creat", __PNR_creat },

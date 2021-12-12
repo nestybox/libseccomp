@@ -70,6 +70,7 @@ const struct arch_syscall_def x32_syscall_table[] = { \
 	{ "clone", (X32_SYSCALL_BIT + 56) },
 	{ "clone3", (X32_SYSCALL_BIT + 435) },
 	{ "close", (X32_SYSCALL_BIT + 3) },
+	{ "close_range", (X32_SYSCALL_BIT + 436) },
 	{ "connect", (X32_SYSCALL_BIT + 42) },
 	{ "copy_file_range", (X32_SYSCALL_BIT + 326) },
 	{ "creat", (X32_SYSCALL_BIT + 85) },
