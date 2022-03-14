@@ -6,6 +6,12 @@
  */
 
 /*
+ * NOTE:
+ * CHANGES MADE BY NESTYBOX, INC. ON 12/2019 TO ADD SUPPORT FOR SECCOMP-NOTIFY.
+ * MOST OF THESE CHANGES HAVE BEEN SINCE UPSTREAMED TO THE OFFICIAL LIBSECCOMP.
+ */
+
+/*
  * This library is free software; you can redistribute it and/or modify it
  * under the terms of version 2.1 of the GNU Lesser General Public License as
  * published by the Free Software Foundation.
